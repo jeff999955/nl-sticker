@@ -3,10 +3,13 @@ import json
 import os
 import shutil
 import tempfile
-from typing import Literal
+from urllib.parse import parse_qs, urlencode, urlparse
 
 import requests
 import tqdm
+from PIL import Image
+
+parse_mode = ["twitch", "discord"]
 
 
 def main(args):
@@ -22,8 +25,22 @@ def main(args):
             resolution = src.split("/")[-1]
             src = src.replace(resolution, "4.0")
         elif args.mode == "discord":
-            pass
-        img = requests.get(src).content
+            parsed_url = urlparse(src)
+            params = parse_qs(parsed_url.query)
+            params["size"] = ["128"]
+
+            parsed_url = parsed_url._replace(query=urlencode(params, doseq=True))
+            src = parsed_url.geturl()
+
+            name = name.replace(":", "")
+
+        headers = {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0\
+                             Win64\
+                             x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+        }
+        session = requests.Session()
+        img = session.get(src, headers=headers, stream=True).content
 
         # Check the file type with the first 4 bytes
         signature = img[:4]
@@ -32,6 +49,8 @@ def main(args):
             extension = "png"
         elif signature == b"GIF8":
             extension = "gif"
+        elif signature == b"RIFF":
+            extension = "webp"
         else:
             print(f"Unknown image signature for {name}.")
             continue
@@ -39,9 +58,14 @@ def main(args):
         with tempfile.NamedTemporaryFile(delete=False) as f:
             f.write(img)  # Write the image to the file
 
-        shutil.move(
-            f.name, os.path.join(args.output_dir, f"{name}.{extension}")
-        )  # Move the file to the correct path
+        if extension == "webp":
+            # Convert webp to png
+            im = Image.open(f.name).convert("RGBA")
+            im.save(os.path.join(args.output_dir, f"{name}.png"))
+        else:
+            shutil.move(
+                f.name, os.path.join(args.output_dir, f"{name}.{extension}")
+            )  # Move the file to the correct path
 
 
 def parse_cli_args():
@@ -66,7 +90,7 @@ def parse_cli_args():
         "--mode",
         help="Mode of the scraper. Either 'twitch' or 'discord'.",
         default="twitch",
-        type=Literal["twitch", "discord"],
+        choices=parse_mode,
     )
 
     args = parser.parse_args()
