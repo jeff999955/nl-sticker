@@ -1,5 +1,10 @@
 from jinja2 import Template
 
+TWITCH_FORMAT_TO_EXTENSION = {
+    "static": "png",
+    "animated": "gif",
+}
+
 
 def get_first(data, keys):
     for key in keys:
@@ -29,7 +34,7 @@ def parse_json(json_data):
         map(
             lambda x: {
                 "name": x["name"],
-                "format": x["format"],
+                "extension": TWITCH_FORMAT_TO_EXTENSION[x["format"]],
                 "url": template.render(x),
             },
             return_data,
