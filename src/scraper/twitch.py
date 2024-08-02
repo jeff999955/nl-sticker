@@ -46,23 +46,3 @@ def get_emotes(access_token):
     response.raise_for_status()
 
     return response.json()
-
-
-def main():
-    try:
-        access_token = get_access_token()
-    except requests.exceptions.HTTPError as e:
-        logger.error(f"Failed to get access token: {e}")
-        return
-    except KeyError:
-        return
-
-    try:
-        emote_json = get_emotes(access_token)
-    except requests.exceptions.HTTPError as e:
-        logger.error(f"Failed to get emotes: {e}")
-        return
-
-
-if __name__ == "__main__":
-    main()
