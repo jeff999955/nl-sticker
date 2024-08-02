@@ -1,8 +1,15 @@
 import json
 import os
 import requests
+import logging
 
 BROADCASTER_ID = "29722828"
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
 
 
 def get_access_token():
@@ -14,7 +21,13 @@ def get_access_token():
     }
     response = requests.post(url, params=params)
     response.raise_for_status()
-    return response.json()["access_token"]
+    response = response.json()
+
+    try:
+        return response["access_token"]
+    except KeyError as e:
+        logger.error(f"Access token not found in response: {response}")
+        raise e
 
 
 def get_emotes(access_token):
@@ -39,13 +52,20 @@ def main():
     try:
         access_token = get_access_token()
     except requests.exceptions.HTTPError as e:
-        print(f"Failed to get access token: {e}")
-    except KeyError as e:
-        print("Access token not found in response")
-        print("Response:", e)
+        logger.error(f"Failed to get access token: {e}")
+        return
+    except KeyError:
+        return
+
+    try:
+        emote_json = get_emotes(access_token)
+    except requests.exceptions.HTTPError as e:
+        logger.error(f"Failed to get emotes: {e}")
+        return
 
     with open("response.json", "w") as f:
         json.dump(get_emotes(access_token), f)
+        logger.info("Emotes data saved to response.json")
 
 
 if __name__ == "__main__":
