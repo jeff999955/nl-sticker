@@ -63,10 +63,6 @@ def main():
         logger.error(f"Failed to get emotes: {e}")
         return
 
-    with open("response.json", "w") as f:
-        json.dump(get_emotes(access_token), f)
-        logger.info("Emotes data saved to response.json")
-
 
 if __name__ == "__main__":
     main()
