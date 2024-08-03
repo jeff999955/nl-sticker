@@ -1,22 +1,12 @@
 const Handlebars = require("handlebars");
-const { format } = require("logform");
 
-TWITCH_FORMAT_TO_EXTENSION = {
+const TWITCH_FORMAT_TO_EXTENSION = {
   static: "png",
   animated: "gif",
 };
 
-const getFirst = (dict, keys) => {
-  for (const key of keys) {
-    if (dict[key]) {
-      return dict[key];
-    }
-  }
-  return null;
-};
-
 const parseJson = (json) => {
-  template = Handlebars.compile(json["template"]);
+  const template = Handlebars.compile(json["template"]);
 
   const emotes = json["data"]
     .map((emote) => ({
