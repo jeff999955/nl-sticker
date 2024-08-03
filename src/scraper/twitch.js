@@ -46,3 +46,5 @@ const getEmotes = async (accessToken) => {
     throw error;
   }
 };
+
+module.exports = { getAccessToken, getEmotes };
