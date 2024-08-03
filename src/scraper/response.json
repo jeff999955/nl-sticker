@@ -1,0 +1,944 @@
+[
+    {
+        "data": {
+            "currentUser": null,
+            "channel": {
+                "id": "29722828",
+                "localEmoteSets": [
+                    {
+                        "id": "11a32b19-cdf2-4a8b-93e9-8086270c1aaa",
+                        "emotes": [
+                            {
+                                "id": "emotesv2_c1b9b74549ef4d7abe96d4e52bde832f",
+                                "setID": "11a32b19-cdf2-4a8b-93e9-8086270c1aaa",
+                                "token": "nlnlYes",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_bfd4e2dde9fa40218f4d919d60d9a9e1",
+                                "setID": "11a32b19-cdf2-4a8b-93e9-8086270c1aaa",
+                                "token": "nlnlOMG",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_592018910cf7470e97c46e2bd53fc6d6",
+                                "setID": "11a32b19-cdf2-4a8b-93e9-8086270c1aaa",
+                                "token": "nlnlLike",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_f55fcfb2349a493e86af5147df262ce8",
+                                "setID": "11a32b19-cdf2-4a8b-93e9-8086270c1aaa",
+                                "token": "nlnlDislike",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_7c1c4be113c84d59bc6df77834586817",
+                                "setID": "11a32b19-cdf2-4a8b-93e9-8086270c1aaa",
+                                "token": "nlnl1",
+                                "__typename": "Emote"
+                            }
+                        ],
+                        "__typename": "EmoteSet"
+                    }
+                ],
+                "__typename": "Channel"
+            },
+            "user": {
+                "id": "29722828",
+                "login": "never_loses",
+                "displayName": "NeVeR_LosEs",
+                "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/9a09edc8-cf49-4168-ae93-0fca9fef188e-profile_image-28x28.jpg",
+                "subscriptionProducts": [
+                    {
+                        "id": "14363",
+                        "emoteSetID": "20344",
+                        "emoteGroups": [
+                            {
+                                "id": "363281617",
+                                "__typename": "EmoteSet"
+                            },
+                            {
+                                "id": "20344",
+                                "__typename": "EmoteSet"
+                            }
+                        ],
+                        "name": "never_loses",
+                        "price": "$5.99",
+                        "tier": "1000",
+                        "url": "https://www.twitch.tv/products/never_loses",
+                        "emotes": [
+                            {
+                                "id": "emotesv2_0df2baa802654c54b12d50f258f22bc7",
+                                "setID": "363281617",
+                                "token": "nlnlQ",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_28cac5f4d12f41deb1a5c8ae34b74176",
+                                "setID": "363281617",
+                                "token": "nlnlD",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_d0185712027542ee9fa0c911d8b76b22",
+                                "setID": "363281617",
+                                "token": "nlnlHey",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_0cae01aadbc44f0ca92708759c9109af",
+                                "setID": "363281617",
+                                "token": "nlnlSoFun",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_317749cb2dd64d3280b0ffbe04001cda",
+                                "setID": "363281617",
+                                "token": "nlnlRockU",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_765f815acd794ecabd19c5208a4f0423",
+                                "setID": "363281617",
+                                "token": "nlnlPeko",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_f4119a9a6bbf4671909badd76b69a7f2",
+                                "setID": "363281617",
+                                "token": "nlnlUUU",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_2bc0910d71364cdbbd0956e66b711228",
+                                "setID": "363281617",
+                                "token": "nlnlDogs",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_71d78ee9baa841ad92b96fb6c656cf87",
+                                "setID": "363281617",
+                                "token": "nlnlWoof",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_f6d8cb0ad1634e108902b1de865b5235",
+                                "setID": "363281617",
+                                "token": "nlnlMad",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_a8ee8edee6dc4f45b09557ba3aed53c1",
+                                "setID": "363281617",
+                                "token": "nlnlRogerKiss",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_f68f80074dc04a5c90ad8c197355f9a4",
+                                "setID": "363281617",
+                                "token": "nlnlStar",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_e631348407154b9d99d73e695b405951",
+                                "setID": "363281617",
+                                "token": "nlnlHeart",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_e776435b32d744328bea23d796a47ae7",
+                                "setID": "363281617",
+                                "token": "nlnlP",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_d7684bfde725484fb561fed15d8d4a29",
+                                "setID": "363281617",
+                                "token": "nlnlIdol",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_0185bd7437b3430799392b4971bc2894",
+                                "setID": "363281617",
+                                "token": "nlnlWink",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_bed9b01fd4d24784a09ec6091bad1b11",
+                                "setID": "363281617",
+                                "token": "nlnlCFC",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_1e615be6ade94dce992b939668d95162",
+                                "setID": "363281617",
+                                "token": "nlnlBoxer",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_4e35314c76014161b9051fa8125579a4",
+                                "setID": "363281617",
+                                "token": "nlnlCheer",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_ee31b73c10444f99bb67d4251aecf4d4",
+                                "setID": "363281617",
+                                "token": "nlnlCute",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_7be1803d63794f00b5410e42ef1f3f81",
+                                "setID": "363281617",
+                                "token": "nlnlHighFive",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_d607b43aa0d04b52b9505e0bc76837a6",
+                                "setID": "363281617",
+                                "token": "nlnlOutsider",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_77c8a56ceac2447d8dcb106f6731497b",
+                                "setID": "363281617",
+                                "token": "nlnlFlower",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_ca713490e4464fd79403160d55137646",
+                                "setID": "363281617",
+                                "token": "nlnlPPY",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_82316f4fc7d547d5b989b462f71fbe59",
+                                "setID": "363281617",
+                                "token": "nlnlParty",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_5021eea621e24f0cb9d0813f9a76bedf",
+                                "setID": "363281617",
+                                "token": "nlnlGiveMe",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_847e316b1b28405fafbf46afc6177448",
+                                "setID": "363281617",
+                                "token": "nlnlTaDa",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_9a068f66234848548adb667822285bd7",
+                                "setID": "363281617",
+                                "token": "nlnlSinger",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_3abb487d24d54195a39c6fea9c021e4e",
+                                "setID": "363281617",
+                                "token": "nlnlBanana",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_e740360142924a8b8476c33a2435c9cd",
+                                "setID": "363281617",
+                                "token": "nlnlWet",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_28f47796615e4bd0942f270246951c70",
+                                "setID": "363281617",
+                                "token": "nlnlSun",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_4dc899114d5342eda9a06b9e8b58402d",
+                                "setID": "363281617",
+                                "token": "nlnlBoom",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_9584ca6e6825445583d0c4acdf322397",
+                                "setID": "363281617",
+                                "token": "nlnlTime",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_cd8eb86c76fd437cb96416470b65bb2f",
+                                "setID": "363281617",
+                                "token": "nlnlXP",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_56d0482a37d44938b13874b528729ec5",
+                                "setID": "363281617",
+                                "token": "nlnlHigh",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_4b120281fa9141f183a9e02baadf32e6",
+                                "setID": "363281617",
+                                "token": "nlnlLine",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_e01cd727f5cd43d8b55a42f78e570677",
+                                "setID": "363281617",
+                                "token": "nlnlNote",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_cccd331d95014292b9610f0c9551a7b5",
+                                "setID": "363281617",
+                                "token": "nlnlYaoQi",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_c4fd00cbf531440ea79c2c31ee107e8c",
+                                "setID": "363281617",
+                                "token": "nlnlDance",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_a9060112dd794f3fb3cc090efc4f29af",
+                                "setID": "363281617",
+                                "token": "nlnlKiss",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_6fafe103b8a14ab1b7c870055112cf07",
+                                "setID": "363281617",
+                                "token": "nlnl777",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_24a3e9c9e3714f6faaa725f556164422",
+                                "setID": "363281617",
+                                "token": "nlnlBall",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "301290166",
+                                "setID": "20344",
+                                "token": "nlnlOUO",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "302116551",
+                                "setID": "20344",
+                                "token": "nlnlAyaya",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "301640971",
+                                "setID": "20344",
+                                "token": "nlnlQwQ",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "301634003",
+                                "setID": "20344",
+                                "token": "nlnlMasks",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_6b7f90818e9c4c378a96701d03e9fbf4",
+                                "setID": "20344",
+                                "token": "nlnlOwO",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "304993186",
+                                "setID": "20344",
+                                "token": "nlnlGqG",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "305006113",
+                                "setID": "20344",
+                                "token": "nlnlUgly",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_a943af5cf70b425c8ec8009f53d2b85d",
+                                "setID": "20344",
+                                "token": "nlnlSunBaby",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_c8c0a6a3cd7e41b5b0fa29a84f367149",
+                                "setID": "20344",
+                                "token": "nlnlAwA",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_e1aad635d1524c0d87a1a5ffbc6fa161",
+                                "setID": "20344",
+                                "token": "nlnlListen",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_b64ee14005c648819932b9920eb5cab3",
+                                "setID": "20344",
+                                "token": "nlnlZzz",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_a2906e16b86b41aa89a649cc8adf6ffe",
+                                "setID": "20344",
+                                "token": "nlnlRespect",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "302443404",
+                                "setID": "20344",
+                                "token": "nlnlOeO",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "305013852",
+                                "setID": "20344",
+                                "token": "nlnlHair",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "304990041",
+                                "setID": "20344",
+                                "token": "nlnlSteak",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_5b96af9c026441a5a8063f3cc9610b47",
+                                "setID": "20344",
+                                "token": "nlnlYesSir",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_aca3927767a94a3e89831c826a5729c0",
+                                "setID": "20344",
+                                "token": "nlnlJoker",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_829e05c635b64e8aa94ac36f361d116c",
+                                "setID": "20344",
+                                "token": "nlnlWhatWasThat",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "305014702",
+                                "setID": "20344",
+                                "token": "nlnlRIP",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "301286785",
+                                "setID": "20344",
+                                "token": "nlnlWater",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_3f1a2ee59d1f43fc9c612b401a24022b",
+                                "setID": "20344",
+                                "token": "nlnlS",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "305014772",
+                                "setID": "20344",
+                                "token": "nlnlCarry",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "302163305",
+                                "setID": "20344",
+                                "token": "nlnlKid",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "303561550",
+                                "setID": "20344",
+                                "token": "nlnlBee",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "304940226",
+                                "setID": "20344",
+                                "token": "nlnlToT",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "300828260",
+                                "setID": "20344",
+                                "token": "nlnlSasuke",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "300826809",
+                                "setID": "20344",
+                                "token": "nlnlCo",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "301361394",
+                                "setID": "20344",
+                                "token": "nlnlCoco",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "211859",
+                                "setID": "20344",
+                                "token": "nlnlSad",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "208118",
+                                "setID": "20344",
+                                "token": "nlnlLazy",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "133366",
+                                "setID": "20344",
+                                "token": "nlnlR",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "134154",
+                                "setID": "20344",
+                                "token": "nlnlLove",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "307964722",
+                                "setID": "20344",
+                                "token": "nlnlOeObot",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_c5981ea28db74183b02d567107257e60",
+                                "setID": "20344",
+                                "token": "nlnl600",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_a6e51af10b8946f28a482b67c3cad110",
+                                "setID": "20344",
+                                "token": "nlnlStop",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_e7b99b9457c74b9caee3c6cf6ae33849",
+                                "setID": "20344",
+                                "token": "nlnlMonkey",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_718de6fdd4e24dc7a3620809f1cca792",
+                                "setID": "20344",
+                                "token": "nlnlG",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "301470638",
+                                "setID": "20344",
+                                "token": "nlnlKO",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_9d816c3914a945a79a9118b2f7a7ded6",
+                                "setID": "20344",
+                                "token": "nlnl2K",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_0448b33978a04b708c5a66fa7fb7afaf",
+                                "setID": "20344",
+                                "token": "nlnlMama",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_8fe1372d40714b82bdc56edf2f100c0d",
+                                "setID": "20344",
+                                "token": "nlnl113",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_42777eeb6a0a4a62b34f868ff196cf0d",
+                                "setID": "20344",
+                                "token": "nlnlCo2",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_f4d342b7095f46919cc47d4a32961e85",
+                                "setID": "20344",
+                                "token": "nlnl87",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_e1c5b6a0269246288965fd879eb128bd",
+                                "setID": "20344",
+                                "token": "nlnlShutUp",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_0726747914294b4aae4700da45a8c317",
+                                "setID": "20344",
+                                "token": "nlnlWhoRU",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_e61cd0fc8f1440c9bc041830280c2515",
+                                "setID": "20344",
+                                "token": "nlnlDog",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_033f110c140e44adadf30f5c00eec8f6",
+                                "setID": "20344",
+                                "token": "nlnlPlease",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_a8c4410d20064495b7f6d2f14495e418",
+                                "setID": "20344",
+                                "token": "nlnlOlo",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_4f1a83fd555548d797efb8cfb3ae92a7",
+                                "setID": "20344",
+                                "token": "nlnlBloodTrail",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_c56f65d9e54b4dbcbac07394e51394a0",
+                                "setID": "20344",
+                                "token": "nlnlPig",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_aac67955a2a1484ca764ce3f4c28f669",
+                                "setID": "20344",
+                                "token": "nlnlPY",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_eea7ee7e2ed0424c9e04255ee598afc3",
+                                "setID": "20344",
+                                "token": "nlnl1000",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_a959b62f5be14b5bb87e2994ff68c01b",
+                                "setID": "20344",
+                                "token": "nlnlCheers",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_880ba8f052a545ba94cad7cfff549a7c",
+                                "setID": "20344",
+                                "token": "nlnl2222",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_7b2196ebec214b08b338897ccf0790d3",
+                                "setID": "20344",
+                                "token": "nlnlXD",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_189e7ba6f7344287944baef78ea886e7",
+                                "setID": "20344",
+                                "token": "nlnl788",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_c9f48c7c3fc94f7999e239acb111aa57",
+                                "setID": "20344",
+                                "token": "nlnl7788",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_8c94c7e40c214ac1810860888353b463",
+                                "setID": "20344",
+                                "token": "nlnlFly",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_87f9593c81754e8bb47550752a690a13",
+                                "setID": "20344",
+                                "token": "nlnlYoN",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_d3fd85cdb6134401b854e8a275103cfc",
+                                "setID": "20344",
+                                "token": "nlnlRogerCallMe",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            }
+                        ],
+                        "__typename": "SubscriptionProduct"
+                    },
+                    {
+                        "id": "32022",
+                        "emoteSetID": "38005",
+                        "emoteGroups": [
+                            {
+                                "id": "364689749",
+                                "__typename": "EmoteSet"
+                            },
+                            {
+                                "id": "38005",
+                                "__typename": "EmoteSet"
+                            }
+                        ],
+                        "name": "never_loses_2000",
+                        "price": "$9.99",
+                        "tier": "2000",
+                        "url": "https://www.twitch.tv/products/never_loses_2000",
+                        "emotes": [
+                            {
+                                "id": "emotesv2_e3eb645b97c342e19213633dcae3bec9",
+                                "setID": "364689749",
+                                "token": "nlnlNNN",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_0fc9f33cd6884c7890fc7fd692dea444",
+                                "setID": "364689749",
+                                "token": "nlnlB",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_a63548d876df46e8bda210204a5858cf",
+                                "setID": "364689749",
+                                "token": "nlnl22",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "305014044",
+                                "setID": "38005",
+                                "token": "nlnlIU",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "301598551",
+                                "setID": "38005",
+                                "token": "nlnlOuO",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_ad97a54bf8c344aeb443dca57b000e06",
+                                "setID": "38005",
+                                "token": "nlnlGoodJob",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_7317e3eb018245c387f77ff8b4ae15f4",
+                                "setID": "38005",
+                                "token": "nlnlBye",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_20f8abb0c3884daaa186bccf7a64e9f0",
+                                "setID": "38005",
+                                "token": "nlnlUmm",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            }
+                        ],
+                        "__typename": "SubscriptionProduct"
+                    },
+                    {
+                        "id": "32023",
+                        "emoteSetID": "38006",
+                        "emoteGroups": [
+                            {
+                                "id": "337527228",
+                                "__typename": "EmoteSet"
+                            },
+                            {
+                                "id": "38006",
+                                "__typename": "EmoteSet"
+                            }
+                        ],
+                        "name": "never_loses_3000",
+                        "price": "$24.99",
+                        "tier": "3000",
+                        "url": "https://www.twitch.tv/products/never_loses_3000",
+                        "emotes": [
+                            {
+                                "id": "emotesv2_0f7b99c0afe343188f5a3fe692305109",
+                                "setID": "337527228",
+                                "token": "nlnlSunshine",
+                                "assetType": "ANIMATED",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "305007468",
+                                "setID": "38006",
+                                "token": "nlnlLoveU",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "302160723",
+                                "setID": "38006",
+                                "token": "nlnlLeader",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "307461398",
+                                "setID": "38006",
+                                "token": "nlnlPp",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "emotesv2_2de3ae4533794fb3b66d5f24ac393597",
+                                "setID": "38006",
+                                "token": "nlnlYesMOD",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            },
+                            {
+                                "id": "492213",
+                                "setID": "38006",
+                                "token": "nlnlNLmark",
+                                "assetType": "STATIC",
+                                "__typename": "Emote"
+                            }
+                        ],
+                        "__typename": "SubscriptionProduct"
+                    }
+                ],
+                "cheer": {
+                    "id": "29722828",
+                    "badgeTierEmotes": [],
+                    "__typename": "CheerInfo"
+                },
+                "self": null,
+                "__typename": "User"
+            }
+        },
+        "extensions": {
+            "durationMilliseconds": 60,
+            "operationName": "EmotePicker_EmotePicker_UserSubscriptionProducts",
+            "requestID": "01J490B08BV0PTK4X3FXX1W6NC"
+        }
+    }
+]
