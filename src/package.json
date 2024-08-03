@@ -1,0 +1,11 @@
+{
+  "name": "sticker-scraper",
+  "version": "2.0.0",
+  "description": "NL Sticker Scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
