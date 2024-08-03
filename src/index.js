@@ -24,7 +24,7 @@ const getTwitchEmotes = async (dirPath) => {
 (async () => {
   try {
     const tmpDirName = v4();
-    await fs.mkdir(`./${tmpDirName}`);
+    fs.mkdirSync(`./${tmpDirName}`);
     await getTwitchEmotes(tmpDirName);
   } catch (error) {
     console.error(error);
