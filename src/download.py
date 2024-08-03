@@ -19,9 +19,21 @@ def get_twitch_emotes():
         print(f"Failed to get emotes: {e}")
         return
 
-    emotes = parse_json(emotes)
+    try:
+        emotes = parse_json(emotes)
+    except KeyError as e:
+        print(f"Failed to parse emotes: {e}")
+        return
+
     for emote in emotes:
-        print(emote)
+        url = emote["url"]
+        response = requests.get(url)
+        if response.status_code != 200:
+            print(f"Failed to download emote: {emote['name']}")
+            continue
+
+        with open(f"emotes/{emote['name']}.{emote['extension']}", "wb") as f:
+            f.write(response.content)
 
 
 def main():
