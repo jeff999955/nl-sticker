@@ -30,7 +30,7 @@ exports.uploadTwitchEmotes = onRequest(async (req, res) => {
           writeStream.on("finish", resolve);
           writeStream.on("error", reject);
         });
-      })
+      }),
     );
 
     res.status(200).send("Emotes uploaded successfully.");

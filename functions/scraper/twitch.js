@@ -18,7 +18,7 @@ const getAccessToken = async () => {
     logger.error(
       `Failed to get access token: ${
         error.response ? error.response.data : error.message
-      }`
+      }`,
     );
     throw error;
   }
@@ -41,7 +41,7 @@ const getEmotes = async (accessToken) => {
     logger.error(
       `Failed to get emotes: ${
         error.response ? error.response.data : error.message
-      }`
+      }`,
     );
     throw error;
   }
