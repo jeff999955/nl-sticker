@@ -1,0 +1,23 @@
+{
+  "name": "sticker-scraper",
+  "version": "2.0.0",
+  "description": "NL Sticker Scraper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "handlebars": "^4.7.8",
+    "uuid": "^10.0.0",
+    "winston": "^3.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
